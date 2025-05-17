@@ -7,6 +7,11 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 .Python
 build/
 develop-eggs/
@@ -126,6 +131,12 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
+.hypothesis/
+.pytest_cache/
+
+# Sphinx documentation
+docs/_build/
+docs/build/
 
 # Environments
 .env
@@ -172,3 +183,37 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+.python-version
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Poetry
+poetry.lock
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
